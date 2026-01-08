@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wintersportregionen und globale Erderwärmung</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f6f9;
+  color:#1f2937;
+  line-height:1.7;
+}
+header{
+  background:#0f2d5a;
+  color:white;
+  padding:3rem 1.5rem;
+  text-align:center;
+}
+header h1{margin:0;font-size:2.6rem}
+header p{max-width:900px;margin:1rem auto 0;font-size:1.2rem}
+
+main{max-width:1100px;margin:auto;padding:3rem 1.5rem}
+
+.tabs{
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+.tab-buttons{
+  display:flex;
+  flex-wrap:wrap;
+  border-bottom:1px solid #e5e7eb;
+}
+.tab-buttons button{
+  flex:1;
+  padding:1rem;
+  font-size:1.05rem;
+  background:#f9fafb;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+.tab-buttons button.active{
+  background:white;
+  border-bottom:4px solid #0f2d5a;
+  color:#0f2d5a;
+}
+.tab-content{
+  display:none;
+  padding:2rem;
+}
+.tab-content.active{display:block}
+h2{color:#0f2d5a;margin-top:0}
+
+footer{
+  background:#0f2d5a;
+  color:white;
+  padding:2.5rem 1.5rem;
+}
+footer a{color:#c7d2fe}
+footer ul{max-width:900px;margin:auto}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Wintersportregionen im Klimawandel</h1>
+<p>
+Gefährdungen und Veränderungen von Wintersportregionen
+durch die globale Erderwärmung
+</p>
+</header>
+
+<main>
+
+<div class="tabs">
+  <div class="tab-buttons">
+    <button class="active" onclick="openTab(0)">1. Globale Erwärmung</button>
+    <button onclick="openTab(1)">2. Veränderungen & Gefährdungen</button>
+    <button onclick="openTab(2)">3. Maßnahmen der Skigebiete</button>
+    <button onclick="openTab(3)">4. Allgemeine Lösungen</button>
+    <button onclick="openTab(4)">5. Fazit</button>
+  </div>
+
+  <!-- TAB 1 -->
+  <div class="tab-content active">
+    <h2>1. Was ist globale Erderwärmung?</h2>
+    <p>
+      Die globale Erderwärmung beschreibt den langfristigen Anstieg der durchschnittlichen
+      Temperatur auf der Erde. Hauptursache ist der vom Menschen verstärkte Treibhauseffekt.
+      Durch die Verbrennung fossiler Energieträger, industrielle Prozesse und Abholzung
+      gelangen große Mengen an Treibhausgasen in die Atmosphäre, die Wärme speichern.
+    </p>
+    <p>
+      Laut myclimate führt dieser Prozess zu tiefgreifenden Veränderungen des globalen
+      Klimasystems. Dazu zählen steigende Temperaturen, häufigere Extremwetterereignisse
+      und Veränderungen natürlicher Kreisläufe. Besonders Gebirgsregionen reagieren
+      empfindlich, da Temperaturveränderungen direkten Einfluss auf Schnee und Eis haben.
+    </p>
+  </div>
+
+  <!-- TAB 2 -->
+  <div class="tab-content">
+    <h2>2. Veränderungen und Gefährdungen von Wintersportregionen</h2>
+    <p>
+      Die globale Erderwärmung führt zu langfristigen Veränderungen der Schneeverhältnisse
+      in Wintersportregionen. Steigende Temperaturen bewirken, dass Niederschläge häufiger
+      als Regen fallen und die Dauer der natürlichen Schneedecke abnimmt.
+    </p>
+    <p>
+      Steiger et al. (2019) zeigen, dass vor allem tiefer gelegene Skigebiete zunehmend
+      Schwierigkeiten haben, wirtschaftlich zu arbeiten. Gleichzeitig weist der WWF darauf
+      hin, dass Wintersport mit erheblichen Eingriffen in sensible alpine Ökosysteme
+      verbunden ist. Zusätzlich nehmen Risiken durch Extremwetter, Lawinen und instabile
+      Hanglagen zu.
+    </p>
+  </div>
+
+  <!-- TAB 3 -->
+  <div class="tab-content">
+    <h2>3. Was können Skigebiete tun?</h2>
+    <p>
+      Viele Skigebiete reagieren auf den Rückgang natürlicher Schneesicherheit mit
+      technischer Beschneiung. Diese Maßnahme kann kurzfristig den Skibetrieb sichern,
+      ist jedoch mit hohem Wasser- und Energieverbrauch verbunden und stößt bei steigenden
+      Temperaturen zunehmend an ihre Grenzen.
+    </p>
+    <p>
+      Darüber hinaus können Skigebiete durch Diversifizierung ihre Abhängigkeit vom
+      Skitourismus verringern. Ganzjahresangebote, nachhaltige Infrastruktur und
+      klimafreundliche Mobilitätskonzepte gelten als wichtige Anpassungsstrategien.
+    </p>
+  </div>
+
+  <!-- TAB 4 -->
+  <div class="tab-content">
+    <h2>4. Allgemeine Lösungen gegen den Klimawandel</h2>
+    <p>
+      Langfristig können die Probleme von Wintersportregionen nur durch eine Begrenzung
+      der globalen Erderwärmung gelöst werden. Zentrale Maßnahmen sind die Reduktion von
+      Treibhausgasemissionen, der Ausbau erneuerbarer Energien und eine nachhaltige
+      Verkehrspolitik.
+    </p>
+    <p>
+      Auch individuelles Verhalten spielt eine Rolle. Der WWF betont, dass klimabewusstes
+      Reisen und ein verantwortungsvoller Umgang mit Ressourcen dazu beitragen können,
+      den Klimawandel abzuschwächen und die Belastung sensibler Regionen zu reduzieren.
+    </p>
+  </div>
+
+  <!-- TAB 5 -->
+  <div class="tab-content">
+    <h2>5. Fazit</h2>
+    <p>
+      Die globale Erderwärmung verändert Wintersportregionen grundlegend. Veränderungen
+      der Schneeverhältnisse, ökologische Belastungen und wirtschaftliche Risiken zeigen,
+      dass der klassische Wintersport vielerorts an seine Grenzen stößt.
+    </p>
+    <p>
+      Wissenschaftliche Studien wie Steiger et al. (2019) verdeutlichen, dass besonders
+      niedrig gelegene Skigebiete langfristig zu den Verlierern des Klimawandels zählen.
+      Zukunftsfähig sind Regionen, die frühzeitig auf nachhaltige Anpassungsstrategien
+      setzen und gleichzeitig konsequenten Klimaschutz unterstützen.
+    </p>
+  </div>
+</div>
+
+</main>
+
+<footer>
+<h3>Quellen</h3>
+<ul>
+  <li>
+    myclimate (o. J.): Was versteht man unter globaler Erwärmung?  
+    <a href="https://www.myclimate.org/de-de/informieren/faq/faq-detail/was-versteht-man-unter-globaler-erwaermung/" target="_blank">
+      https://www.myclimate.org/…
+    </a>
+  </li>
+  <li>
+    WWF Deutschland (o. J.): Skifahren – Wintersport mit Folgen  
+    <a href="https://www.wwf.de/aktiv-werden/tipps-fuer-den-alltag/umweltfreundlich-reisen/skifahren-wintersport-mit-folgen" target="_blank">
+      https://www.wwf.de/…
+    </a>
+  </li>
+  <li>
+    Steiger, R. et al. (2019): A critical review of climate change risk for ski tourism. <em>Current Issues in Tourism</em>.  
+    <a href="https://doi.org/10.1080/13683500.2017.1410110" target="_blank">
+      https://doi.org/10.1080/13683500.2017.1410110
+    </a>
+  </li>
+</ul>
+
+<p style="margin-top:1.5rem;">
+Erstellt von <strong>Jakob Köhnen</strong>
+</p>
+</footer>
+
+<script>
+function openTab(n){
+  const buttons=document.querySelectorAll(".tab-buttons button");
+  const tabs=document.querySelectorAll(".tab-content");
+  buttons.forEach(b=>b.classList.remove("active"));
+  tabs.forEach(t=>t.classList.remove("active"));
+  buttons[n].classList.add("active");
+  tabs[n].classList.add("active");
+}
+</script>
+
+</body>
+</html>
